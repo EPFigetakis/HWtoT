@@ -50,20 +50,24 @@ def decode_predictions(logits, charset, blank=0):
         results.append(text)
     return results
 
-def train(model, train_loader, val_loader, charset,num_epochs=20,lr=1e-3,device="cuda" if torch.cuda.is_available() else "cpu",save_path="crnn_best.pth"):
+def train(model, train_loader, val_loader, charset,num_epochs=20,lr=1e-3,device="cuda" if torch.cuda.is_available() else "cpu",save_path="crnn_best.pth",max_iters=100):
     model = model.to(device)
     optimizer = optim.Adam(model.parameters(), lr=lr)
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min', patience=3, verbose=True)
     criterion = nn.CTCLoss(blank=0, zero_infinity=True)
+    max_iters = max_iters
 
     best_val_cer = float("inf")
-
     for epoch in range(num_epochs):
         model.train()
         epoch_loss = 0.0
 
-        loop = tqdm(train_loader, desc=f"Epoch {epoch+1}/{num_epochs}", leave=False)
-        for batch in loop:
+        loop = tqdm(train_loader, desc=f"Epoch {epoch+1}/{num_epochs}", leave=True)
+        for i,batch in enumerate(loop):
+            if i >= max_iters:
+                break
+
+
             images = batch["images"].to(device)  # [B, 1, 32, W]
             targets = batch["label"].to(device)
             label_lengths = batch["label_lengths"].to(device)
@@ -87,19 +91,36 @@ def train(model, train_loader, val_loader, charset,num_epochs=20,lr=1e-3,device=
 
         # Validation step
         model.eval()
-        all_preds, all_targets = [], []
+        all_preds, all_targets, all_paths, all_labels = [], [], [], []
         with torch.no_grad():
             for batch in val_loader:
                 images = batch["images"].to(device)
-                labels = batch["label_strs"]
+                input_lengths = batch["input_lengths"]
+                label_lengths = batch["label_lengths"]
+                labels = batch["label"]
+                label_strs = batch["label_strs"]
+                image_paths = batch["image_paths"]
+                
                 logits = model(images)
                 decoded = decode_predictions(logits.cpu(), charset)
-                all_preds.extend(decoded)
-                all_targets.extend(labels)
-                if epoch == 0 or (epoch+1) % 5 == 0:
-                    for i in range(min(3, len(all_preds))):
-                        wandb.log({f"Prediction {i+1}": wandb.Table(data=[[all_preds[i], all_targets[i]]],columns=["Prediction", "Ground Truth"])})
+               
 
+                for pred, label, path in zip(decoded, label_strs, image_paths):
+                    all_preds.append(pred)
+                    all_labels.append(label)
+                    all_paths.append(path)
+                if wandb.run is not None:
+                    num_log = 5
+                    log_data = []
+                    for pred, target, path in zip(all_preds[:num_log], all_labels[:num_log], all_paths[:num_log]):
+                        log_data.append({
+                            "prediction": pred,
+                            "ground_truth": target,
+                            "image_path": path
+                            })
+                        wandb.log({"sample_predictions": wandb.Table(columns=["image_path", "ground_truth", "prediction"], data=[
+        [row["image_path"], row["ground_truth"], row["prediction"]] for row in log_data
+    ])}, commit=False)
         val_cer = cer(all_preds, all_targets)
         scheduler.step(val_cer)
         avg_train_loss = epoch_loss / len(train_loader)
@@ -123,7 +144,7 @@ def train(model, train_loader, val_loader, charset,num_epochs=20,lr=1e-3,device=
 
 
 if __name__ == "__main__":
-    wandb.init(project="handwriting-crnn", name="crnn-run-1")
+    wandb.init(project="handwriting-crnn", name="crnn-run-1rx")
     
     create_label.create_dataset_json(image_dir="data/cropped",label_dir="data/labels",output_file="dataset.json")
     create_label.convert_json_to_csv("dataset.json","dataset.csv")
@@ -139,11 +160,12 @@ if __name__ == "__main__":
 
     charset = dataset.get_charset()
     num_classes = len(charset) + 1
-    num_epochs = 15
+    num_epochs = 200
     lr=1e-3
     model = CRNN.CRNN(img_height=32,num_classes=num_classes)
     wandb.config.update({"epochs": num_epochs,"learning_rate": lr,"batch_size": train_loader.batch_size,"optimizer": "Adam","loss": "CTCLoss"})
     wandb.watch(model, log="all", log_freq=10)
     train(model=model,train_loader=train_loader,val_loader=val_loader, lr=lr,charset=charset,num_epochs=num_epochs)
-   
+    wandb.finish()
+    sys.exit(0)
 
