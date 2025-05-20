@@ -1,354 +1,354 @@
 [
     {
-        "image_path": "cropped\\001c_line_01.png",
-        "label": "Predominantly sensors are accumulating data in a constant"
-    },
-    {
-        "image_path": "cropped\\001c_line_02.png",
-        "label": "manner which can create large data sets that can be difficult"
-    },
-    {
-        "image_path": "cropped\\001c_line_03.png",
-        "label": "to send due to several reasons such as limited"
-    },
-    {
-        "image_path": "cropped\\001c_line_04.png",
-        "label": "computational power and bandwidth limitations A solution"
-    },
-    {
-        "image_path": "cropped\\001c_line_05.png",
-        "label": "to this includes using compression algorithms to store"
-    },
-    {
-        "image_path": "cropped\\001c_line_06.png",
-        "label": "important characteristics of data while reducing storage"
-    },
-    {
-        "image_path": "cropped\\001c_line_07.png",
-        "label": "space However this method can be demanding when"
-    },
-    {
-        "image_path": "cropped\\001c_line_08.png",
-        "label": "dealing with a drone that has limited amount of"
-    },
-    {
-        "image_path": "cropped\\001c_line_09.png",
-        "label": "computation power and limited energy supply from"
-    },
-    {
-        "image_path": "cropped\\001c_line_10.png",
-        "label": "a battery"
-    },
-    {
-        "image_path": "cropped\\001c_line_12.png",
-        "label": "Dispatching data from a drone to a centralized"
-    },
-    {
-        "image_path": "cropped\\001c_line_13.png",
-        "label": "system for storage and processing can cause"
-    },
-    {
-        "image_path": "cropped\\001c_line_14.png",
-        "label": "latency and increase traffic if multiple"
-    },
-    {
-        "image_path": "cropped\\001c_line_15.png",
-        "label": "sensors sending data Edge computing can prevent"
-    },
-    {
-        "image_path": "cropped\\001c_line_16.png",
-        "label": "these issues by allowing computation to"
-    },
-    {
-        "image_path": "cropped\\001c_line_17.png",
-        "label": "be closer to the network edge and data"
-    },
-    {
-        "image_path": "cropped\\001c_line_18.png",
-        "label": "sources The use of an edge node to"
-    },
-    {
-        "image_path": "cropped\\001c_line_19.png",
-        "label": "transfer data and run computational"
-    },
-    {
-        "image_path": "cropped\\001c_line_20.png",
-        "label": "algorithms allows for collision avoidance"
-    },
-    {
-        "image_path": "cropped\\001c_line_21.png",
-        "label": "of multiple drones allowing them to be"
-    },
-    {
-        "image_path": "cropped\\001c_line_22.png",
-        "label": "in operation at the same time and return results"
-    },
-    {
-        "image_path": "cropped\\001c_line_23.png",
-        "label": "in real time"
-    },
-    {
-        "image_path": "cropped\\001c_line_25.png",
-        "label": "Focusing on the unmanned aerial vehicle the"
-    },
-    {
-        "image_path": "cropped\\001c_line_26.png",
-        "label": "collision avoidance problem itself can be formulated"
-    },
-    {
-        "image_path": "cropped\\001c_line_27.png",
-        "label": "in two ways as a path planning problem or as a"
-    },
-    {
-        "image_path": "cropped\\001c_line_28.png",
-        "label": "collision avoidance maneuvering problem In the first"
-    },
-    {
-        "image_path": "cropped\\001c_line_29.png",
-        "label": "case the problem is to plan a feasible path between"
-    },
-    {
-        "image_path": "cropped\\001c_line_30.png",
-        "label": "two points while avoiding obstacles while the"
-    },
-    {
-        "image_path": "cropped\\001c_line_31.png",
-        "label": "latter addresses the issue of performing avoidance"
-    },
-    {
-        "image_path": "cropped\\001c_line_32.png",
-        "label": "maneuvers as obstacles are detected"
-    },
-    {
-        "image_path": "cropped\\002c_line_01.png",
-        "label": "Due to an increase in mobile connected devices such"
-    },
-    {
-        "image_path": "cropped\\002c_line_02.png",
-        "label": "as smartphones mobile sensors and automobiles the demand"
-    },
-    {
-        "image_path": "cropped\\002c_line_03.png",
-        "label": "for a faster and more dependable network is increasing"
-    },
-    {
-        "image_path": "cropped\\002c_line_04.png",
-        "label": "Several iterations of mobile networks have been introduced"
-    },
-    {
-        "image_path": "cropped\\002c_line_05.png",
-        "label": "starting with first generation mobile networks since then"
-    },
-    {
-        "image_path": "cropped\\002c_line_06.png",
-        "label": "many improvements have been made"
-    },
-    {
-        "image_path": "cropped\\002c_line_08.png",
-        "label": "In semantic oriented communication the primary emphasis lies"
-    },
-    {
-        "image_path": "cropped\\002c_line_09.png",
-        "label": "on the semantic content of the source data rather than the absolute"
-    },
-    {
-        "image_path": "cropped\\002c_line_10.png",
-        "label": "accuracy of transmitted bits This approach involves the"
-    },
-    {
-        "image_path": "cropped\\002c_line_11.png",
-        "label": "use of a semantic representation module tasked with capturing"
-    },
-    {
-        "image_path": "cropped\\002c_line_12.png",
-        "label": "the semantic content from the source data while filtering"
-    },
-    {
-        "image_path": "cropped\\002c_line_13.png",
-        "label": "out any superfluous or redundant information before the"
-    },
-    {
-        "image_path": "cropped\\002c_line_14.png",
-        "label": "standard data encoding process for transmission Upon"
-    },
-    {
-        "image_path": "cropped\\002c_line_15.png",
-        "label": "reception semantic inference and semantic decoding are"
-    },
-    {
-        "image_path": "cropped\\002c_line_16.png",
-        "label": "employed to decode the transmitted data typically"
-    },
-    {
-        "image_path": "cropped\\002c_line_17.png",
-        "label": "with the assistance of potent AI driven tools"
-    },
-    {
-        "image_path": "cropped\\002c_line_18.png",
-        "label": "such as Neural Networks This process results in data"
-    },
-    {
-        "image_path": "cropped\\002c_line_19.png",
-        "label": "compression and reduction thereby enhancing transmission"
-    },
-    {
-        "image_path": "cropped\\002c_line_20.png",
-        "label": "accuracy and efficiency"
-    },
-    {
-        "image_path": "cropped\\002c_line_22.png",
-        "label": "To build an efficient system a model must"
-    },
-    {
-        "image_path": "cropped\\002c_line_23.png",
-        "label": "be trained to be able to extract information"
-    },
-    {
-        "image_path": "cropped\\002c_line_24.png",
-        "label": "from an image and store it in a smaller"
-    },
-    {
-        "image_path": "cropped\\002c_line_25.png",
-        "label": "file This part of the system is classified"
-    },
-    {
-        "image_path": "cropped\\002c_line_26.png",
-        "label": "as the encoder for the system to work"
-    },
-    {
-        "image_path": "cropped\\002c_line_27.png",
-        "label": "a decoder must be paired with it"
-    },
-    {
-        "image_path": "cropped\\002c_line_28.png",
-        "label": "The decoder will be able to make sense"
-    },
-    {
-        "image_path": "cropped\\002c_line_29.png",
-        "label": "of the features that have been encoded"
-    },
-    {
-        "image_path": "cropped\\002c_line_30.png",
-        "label": "and sent By using this method we"
-    },
-    {
-        "image_path": "cropped\\002c_line_31.png",
-        "label": "can reaffirm that the features will not be"
-    },
-    {
-        "image_path": "cropped\\002c_line_32.png",
-        "label": "misinterpreted and differ from the class"
-    },
-    {
-        "image_path": "cropped\\003c_line_01.png",
+        "image_path": "cropped/003c_line_01.png",
         "label": "A custom framework was created using only numpy as"
     },
     {
-        "image_path": "cropped\\003c_line_02.png",
+        "image_path": "cropped/003c_line_02.png",
         "label": "an external library this was done so that only"
     },
     {
-        "image_path": "cropped\\003c_line_03.png",
+        "image_path": "cropped/003c_line_03.png",
         "label": "the necessary components of the program would be"
     },
     {
-        "image_path": "cropped\\003c_line_04.png",
+        "image_path": "cropped/003c_line_04.png",
         "label": "included greatly reducing bloat from importing external"
     },
     {
-        "image_path": "cropped\\003c_line_05.png",
+        "image_path": "cropped/003c_line_05.png",
         "label": "libraries It also guarantees compatibility between"
     },
     {
-        "image_path": "cropped\\003c_line_06.png",
+        "image_path": "cropped/003c_line_06.png",
         "label": "the model and the SOMs"
     },
     {
-        "image_path": "cropped\\003c_line_07.png",
+        "image_path": "cropped/003c_line_07.png",
         "label": "The Eastern Orthodox Church acknowledges the"
     },
     {
-        "image_path": "cropped\\003c_line_08.png",
+        "image_path": "cropped/003c_line_08.png",
         "label": "primacy of honor for the Bishop of Rome but not"
     },
     {
-        "image_path": "cropped\\003c_line_09.png",
+        "image_path": "cropped/003c_line_09.png",
         "label": "the doctrine of papal supremacy as defined by the"
     },
     {
-        "image_path": "cropped\\003c_line_10.png",
+        "image_path": "cropped/003c_line_10.png",
         "label": "Catholic Church Orthodox Christians believe that the"
     },
     {
-        "image_path": "cropped\\003c_line_11.png",
+        "image_path": "cropped/003c_line_11.png",
         "label": "Bishop of Rome was once seen as the first among"
     },
     {
-        "image_path": "cropped\\003c_line_12.png",
+        "image_path": "cropped/003c_line_12.png",
         "label": "equals but not as a supreme ruler with authority over"
     },
     {
-        "image_path": "cropped\\003c_line_13.png",
+        "image_path": "cropped/003c_line_13.png",
         "label": "the entire Church The Catholic Church asserts that the"
     },
     {
-        "image_path": "cropped\\003c_line_14.png",
+        "image_path": "cropped/003c_line_14.png",
         "label": "Pope as successor of Peter holds supreme authority in"
     },
     {
-        "image_path": "cropped\\003c_line_15.png",
+        "image_path": "cropped/003c_line_15.png",
         "label": "the Church and has the power to make binding decisions"
     },
     {
-        "image_path": "cropped\\003c_line_16.png",
+        "image_path": "cropped/003c_line_16.png",
         "label": "for the entire Church Orthodox Christians argue that the"
     },
     {
-        "image_path": "cropped\\003c_line_17.png",
+        "image_path": "cropped/003c_line_17.png",
         "label": "concept of papal supremacy developed later in the"
     },
     {
-        "image_path": "cropped\\003c_line_18.png",
+        "image_path": "cropped/003c_line_18.png",
         "label": "West and was not part of the early Church's understanding"
     },
     {
-        "image_path": "cropped\\003c_line_19.png",
+        "image_path": "cropped/003c_line_19.png",
         "label": "of papal authority"
     },
     {
-        "image_path": "cropped\\003c_line_21.png",
+        "image_path": "cropped/003c_line_21.png",
         "label": "Orthodox Christianity is experiencing growth in absolute"
     },
     {
-        "image_path": "cropped\\003c_line_22.png",
+        "image_path": "cropped/003c_line_22.png",
         "label": "numbers particularly in Russia and the United States but"
     },
     {
-        "image_path": "cropped\\003c_line_23.png",
+        "image_path": "cropped/003c_line_23.png",
         "label": "its share of the global Christian population and the"
     },
     {
-        "image_path": "cropped\\003c_line_24.png",
+        "image_path": "cropped/003c_line_24.png",
         "label": "global population overall is declining After the fall"
     },
     {
-        "image_path": "cropped\\003c_line_25.png",
+        "image_path": "cropped/003c_line_25.png",
         "label": "of the Soviet Union the Orthodox Church has seen"
     },
     {
-        "image_path": "cropped\\003c_line_26.png",
+        "image_path": "cropped/003c_line_26.png",
         "label": "a sharp resurgence in Russia with the Orthodox"
     },
     {
-        "image_path": "cropped\\003c_line_27.png",
+        "image_path": "cropped/003c_line_27.png",
         "label": "Christian population surpassing million Orthodoxy has"
     },
     {
-        "image_path": "cropped\\003c_line_28.png",
+        "image_path": "cropped/003c_line_28.png",
         "label": "historically grown through adapting its liturgies and"
     },
     {
-        "image_path": "cropped\\003c_line_29.png",
+        "image_path": "cropped/003c_line_29.png",
         "label": "languages to local cultures"
+    },
+    {
+        "image_path": "cropped/001c_line_01.png",
+        "label": "Predominantly sensors are accumulating data in a constant"
+    },
+    {
+        "image_path": "cropped/001c_line_02.png",
+        "label": "manner which can create large data sets that can be difficult"
+    },
+    {
+        "image_path": "cropped/001c_line_03.png",
+        "label": "to send due to several reasons such as limited"
+    },
+    {
+        "image_path": "cropped/001c_line_04.png",
+        "label": "computational power and bandwidth limitations A solution"
+    },
+    {
+        "image_path": "cropped/001c_line_05.png",
+        "label": "to this includes using compression algorithms to store"
+    },
+    {
+        "image_path": "cropped/001c_line_06.png",
+        "label": "important characteristics of data while reducing storage"
+    },
+    {
+        "image_path": "cropped/001c_line_07.png",
+        "label": "space However this method can be demanding when"
+    },
+    {
+        "image_path": "cropped/001c_line_08.png",
+        "label": "dealing with a drone that has limited amount of"
+    },
+    {
+        "image_path": "cropped/001c_line_09.png",
+        "label": "computation power and limited energy supply from"
+    },
+    {
+        "image_path": "cropped/001c_line_10.png",
+        "label": "a battery"
+    },
+    {
+        "image_path": "cropped/001c_line_12.png",
+        "label": "Dispatching data from a drone to a centralized"
+    },
+    {
+        "image_path": "cropped/001c_line_13.png",
+        "label": "system for storage and processing can cause"
+    },
+    {
+        "image_path": "cropped/001c_line_14.png",
+        "label": "latency and increase traffic if multiple"
+    },
+    {
+        "image_path": "cropped/001c_line_15.png",
+        "label": "sensors sending data Edge computing can prevent"
+    },
+    {
+        "image_path": "cropped/001c_line_16.png",
+        "label": "these issues by allowing computation to"
+    },
+    {
+        "image_path": "cropped/001c_line_17.png",
+        "label": "be closer to the network edge and data"
+    },
+    {
+        "image_path": "cropped/001c_line_18.png",
+        "label": "sources The use of an edge node to"
+    },
+    {
+        "image_path": "cropped/001c_line_19.png",
+        "label": "transfer data and run computational"
+    },
+    {
+        "image_path": "cropped/001c_line_20.png",
+        "label": "algorithms allows for collision avoidance"
+    },
+    {
+        "image_path": "cropped/001c_line_21.png",
+        "label": "of multiple drones allowing them to be"
+    },
+    {
+        "image_path": "cropped/001c_line_22.png",
+        "label": "in operation at the same time and return results"
+    },
+    {
+        "image_path": "cropped/001c_line_23.png",
+        "label": "in real time"
+    },
+    {
+        "image_path": "cropped/001c_line_25.png",
+        "label": "Focusing on the unmanned aerial vehicle the"
+    },
+    {
+        "image_path": "cropped/001c_line_26.png",
+        "label": "collision avoidance problem itself can be formulated"
+    },
+    {
+        "image_path": "cropped/001c_line_27.png",
+        "label": "in two ways as a path planning problem or as a"
+    },
+    {
+        "image_path": "cropped/001c_line_28.png",
+        "label": "collision avoidance maneuvering problem In the first"
+    },
+    {
+        "image_path": "cropped/001c_line_29.png",
+        "label": "case the problem is to plan a feasible path between"
+    },
+    {
+        "image_path": "cropped/001c_line_30.png",
+        "label": "two points while avoiding obstacles while the"
+    },
+    {
+        "image_path": "cropped/001c_line_31.png",
+        "label": "latter addresses the issue of performing avoidance"
+    },
+    {
+        "image_path": "cropped/001c_line_32.png",
+        "label": "maneuvers as obstacles are detected"
+    },
+    {
+        "image_path": "cropped/002c_line_01.png",
+        "label": "Due to an increase in mobile connected devices such"
+    },
+    {
+        "image_path": "cropped/002c_line_02.png",
+        "label": "as smartphones mobile sensors and automobiles the demand"
+    },
+    {
+        "image_path": "cropped/002c_line_03.png",
+        "label": "for a faster and more dependable network is increasing"
+    },
+    {
+        "image_path": "cropped/002c_line_04.png",
+        "label": "Several iterations of mobile networks have been introduced"
+    },
+    {
+        "image_path": "cropped/002c_line_05.png",
+        "label": "starting with first generation mobile networks since then"
+    },
+    {
+        "image_path": "cropped/002c_line_06.png",
+        "label": "many improvements have been made"
+    },
+    {
+        "image_path": "cropped/002c_line_08.png",
+        "label": "In semantic oriented communication the primary emphasis lies"
+    },
+    {
+        "image_path": "cropped/002c_line_09.png",
+        "label": "on the semantic content of the source data rather than the absolute"
+    },
+    {
+        "image_path": "cropped/002c_line_10.png",
+        "label": "accuracy of transmitted bits This approach involves the"
+    },
+    {
+        "image_path": "cropped/002c_line_11.png",
+        "label": "use of a semantic representation module tasked with capturing"
+    },
+    {
+        "image_path": "cropped/002c_line_12.png",
+        "label": "the semantic content from the source data while filtering"
+    },
+    {
+        "image_path": "cropped/002c_line_13.png",
+        "label": "out any superfluous or redundant information before the"
+    },
+    {
+        "image_path": "cropped/002c_line_14.png",
+        "label": "standard data encoding process for transmission Upon"
+    },
+    {
+        "image_path": "cropped/002c_line_15.png",
+        "label": "reception semantic inference and semantic decoding are"
+    },
+    {
+        "image_path": "cropped/002c_line_16.png",
+        "label": "employed to decode the transmitted data typically"
+    },
+    {
+        "image_path": "cropped/002c_line_17.png",
+        "label": "with the assistance of potent AI driven tools"
+    },
+    {
+        "image_path": "cropped/002c_line_18.png",
+        "label": "such as Neural Networks This process results in data"
+    },
+    {
+        "image_path": "cropped/002c_line_19.png",
+        "label": "compression and reduction thereby enhancing transmission"
+    },
+    {
+        "image_path": "cropped/002c_line_20.png",
+        "label": "accuracy and efficiency"
+    },
+    {
+        "image_path": "cropped/002c_line_22.png",
+        "label": "To build an efficient system a model must"
+    },
+    {
+        "image_path": "cropped/002c_line_23.png",
+        "label": "be trained to be able to extract information"
+    },
+    {
+        "image_path": "cropped/002c_line_24.png",
+        "label": "from an image and store it in a smaller"
+    },
+    {
+        "image_path": "cropped/002c_line_25.png",
+        "label": "file This part of the system is classified"
+    },
+    {
+        "image_path": "cropped/002c_line_26.png",
+        "label": "as the encoder for the system to work"
+    },
+    {
+        "image_path": "cropped/002c_line_27.png",
+        "label": "a decoder must be paired with it"
+    },
+    {
+        "image_path": "cropped/002c_line_28.png",
+        "label": "The decoder will be able to make sense"
+    },
+    {
+        "image_path": "cropped/002c_line_29.png",
+        "label": "of the features that have been encoded"
+    },
+    {
+        "image_path": "cropped/002c_line_30.png",
+        "label": "and sent By using this method we"
+    },
+    {
+        "image_path": "cropped/002c_line_31.png",
+        "label": "can reaffirm that the features will not be"
+    },
+    {
+        "image_path": "cropped/002c_line_32.png",
+        "label": "misinterpreted and differ from the class"
     }
 ]

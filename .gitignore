@@ -178,3 +178,5 @@ data/images_old
 data/cropped
 wandb/
 crnn_best.pth
+dataset.csv
+dataset.json

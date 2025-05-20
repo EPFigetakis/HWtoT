@@ -1,89 +1,89 @@
 image_path,label
-cropped\001c_line_01.png,Predominantly sensors are accumulating data in a constant
-cropped\001c_line_02.png,manner which can create large data sets that can be difficult
-cropped\001c_line_03.png,to send due to several reasons such as limited
-cropped\001c_line_04.png,computational power and bandwidth limitations A solution
-cropped\001c_line_05.png,to this includes using compression algorithms to store
-cropped\001c_line_06.png,important characteristics of data while reducing storage
-cropped\001c_line_07.png,space However this method can be demanding when
-cropped\001c_line_08.png,dealing with a drone that has limited amount of
-cropped\001c_line_09.png,computation power and limited energy supply from
-cropped\001c_line_10.png,a battery
-cropped\001c_line_12.png,Dispatching data from a drone to a centralized
-cropped\001c_line_13.png,system for storage and processing can cause
-cropped\001c_line_14.png,latency and increase traffic if multiple
-cropped\001c_line_15.png,sensors sending data Edge computing can prevent
-cropped\001c_line_16.png,these issues by allowing computation to
-cropped\001c_line_17.png,be closer to the network edge and data
-cropped\001c_line_18.png,sources The use of an edge node to
-cropped\001c_line_19.png,transfer data and run computational
-cropped\001c_line_20.png,algorithms allows for collision avoidance
-cropped\001c_line_21.png,of multiple drones allowing them to be
-cropped\001c_line_22.png,in operation at the same time and return results
-cropped\001c_line_23.png,in real time
-cropped\001c_line_25.png,Focusing on the unmanned aerial vehicle the
-cropped\001c_line_26.png,collision avoidance problem itself can be formulated
-cropped\001c_line_27.png,in two ways as a path planning problem or as a
-cropped\001c_line_28.png,collision avoidance maneuvering problem In the first
-cropped\001c_line_29.png,case the problem is to plan a feasible path between
-cropped\001c_line_30.png,two points while avoiding obstacles while the
-cropped\001c_line_31.png,latter addresses the issue of performing avoidance
-cropped\001c_line_32.png,maneuvers as obstacles are detected
-cropped\002c_line_01.png,Due to an increase in mobile connected devices such
-cropped\002c_line_02.png,as smartphones mobile sensors and automobiles the demand
-cropped\002c_line_03.png,for a faster and more dependable network is increasing
-cropped\002c_line_04.png,Several iterations of mobile networks have been introduced
-cropped\002c_line_05.png,starting with first generation mobile networks since then
-cropped\002c_line_06.png,many improvements have been made
-cropped\002c_line_08.png,In semantic oriented communication the primary emphasis lies
-cropped\002c_line_09.png,on the semantic content of the source data rather than the absolute
-cropped\002c_line_10.png,accuracy of transmitted bits This approach involves the
-cropped\002c_line_11.png,use of a semantic representation module tasked with capturing
-cropped\002c_line_12.png,the semantic content from the source data while filtering
-cropped\002c_line_13.png,out any superfluous or redundant information before the
-cropped\002c_line_14.png,standard data encoding process for transmission Upon
-cropped\002c_line_15.png,reception semantic inference and semantic decoding are
-cropped\002c_line_16.png,employed to decode the transmitted data typically
-cropped\002c_line_17.png,with the assistance of potent AI driven tools
-cropped\002c_line_18.png,such as Neural Networks This process results in data
-cropped\002c_line_19.png,compression and reduction thereby enhancing transmission
-cropped\002c_line_20.png,accuracy and efficiency
-cropped\002c_line_22.png,To build an efficient system a model must
-cropped\002c_line_23.png,be trained to be able to extract information
-cropped\002c_line_24.png,from an image and store it in a smaller
-cropped\002c_line_25.png,file This part of the system is classified
-cropped\002c_line_26.png,as the encoder for the system to work
-cropped\002c_line_27.png,a decoder must be paired with it
-cropped\002c_line_28.png,The decoder will be able to make sense
-cropped\002c_line_29.png,of the features that have been encoded
-cropped\002c_line_30.png,and sent By using this method we
-cropped\002c_line_31.png,can reaffirm that the features will not be
-cropped\002c_line_32.png,misinterpreted and differ from the class
-cropped\003c_line_01.png,A custom framework was created using only numpy as
-cropped\003c_line_02.png,an external library this was done so that only
-cropped\003c_line_03.png,the necessary components of the program would be
-cropped\003c_line_04.png,included greatly reducing bloat from importing external
-cropped\003c_line_05.png,libraries It also guarantees compatibility between
-cropped\003c_line_06.png,the model and the SOMs
-cropped\003c_line_07.png,The Eastern Orthodox Church acknowledges the
-cropped\003c_line_08.png,primacy of honor for the Bishop of Rome but not
-cropped\003c_line_09.png,the doctrine of papal supremacy as defined by the
-cropped\003c_line_10.png,Catholic Church Orthodox Christians believe that the
-cropped\003c_line_11.png,Bishop of Rome was once seen as the first among
-cropped\003c_line_12.png,equals but not as a supreme ruler with authority over
-cropped\003c_line_13.png,the entire Church The Catholic Church asserts that the
-cropped\003c_line_14.png,Pope as successor of Peter holds supreme authority in
-cropped\003c_line_15.png,the Church and has the power to make binding decisions
-cropped\003c_line_16.png,for the entire Church Orthodox Christians argue that the
-cropped\003c_line_17.png,concept of papal supremacy developed later in the
-cropped\003c_line_18.png,West and was not part of the early Church's understanding
-cropped\003c_line_19.png,of papal authority
-cropped\003c_line_21.png,Orthodox Christianity is experiencing growth in absolute
-cropped\003c_line_22.png,numbers particularly in Russia and the United States but
-cropped\003c_line_23.png,its share of the global Christian population and the
-cropped\003c_line_24.png,global population overall is declining After the fall
-cropped\003c_line_25.png,of the Soviet Union the Orthodox Church has seen
-cropped\003c_line_26.png,a sharp resurgence in Russia with the Orthodox
-cropped\003c_line_27.png,Christian population surpassing million Orthodoxy has
-cropped\003c_line_28.png,historically grown through adapting its liturgies and
-cropped\003c_line_29.png,languages to local cultures
+cropped/003c_line_01.png,A custom framework was created using only numpy as
+cropped/003c_line_02.png,an external library this was done so that only
+cropped/003c_line_03.png,the necessary components of the program would be
+cropped/003c_line_04.png,included greatly reducing bloat from importing external
+cropped/003c_line_05.png,libraries It also guarantees compatibility between
+cropped/003c_line_06.png,the model and the SOMs
+cropped/003c_line_07.png,The Eastern Orthodox Church acknowledges the
+cropped/003c_line_08.png,primacy of honor for the Bishop of Rome but not
+cropped/003c_line_09.png,the doctrine of papal supremacy as defined by the
+cropped/003c_line_10.png,Catholic Church Orthodox Christians believe that the
+cropped/003c_line_11.png,Bishop of Rome was once seen as the first among
+cropped/003c_line_12.png,equals but not as a supreme ruler with authority over
+cropped/003c_line_13.png,the entire Church The Catholic Church asserts that the
+cropped/003c_line_14.png,Pope as successor of Peter holds supreme authority in
+cropped/003c_line_15.png,the Church and has the power to make binding decisions
+cropped/003c_line_16.png,for the entire Church Orthodox Christians argue that the
+cropped/003c_line_17.png,concept of papal supremacy developed later in the
+cropped/003c_line_18.png,West and was not part of the early Church's understanding
+cropped/003c_line_19.png,of papal authority
+cropped/003c_line_21.png,Orthodox Christianity is experiencing growth in absolute
+cropped/003c_line_22.png,numbers particularly in Russia and the United States but
+cropped/003c_line_23.png,its share of the global Christian population and the
+cropped/003c_line_24.png,global population overall is declining After the fall
+cropped/003c_line_25.png,of the Soviet Union the Orthodox Church has seen
+cropped/003c_line_26.png,a sharp resurgence in Russia with the Orthodox
+cropped/003c_line_27.png,Christian population surpassing million Orthodoxy has
+cropped/003c_line_28.png,historically grown through adapting its liturgies and
+cropped/003c_line_29.png,languages to local cultures
+cropped/001c_line_01.png,Predominantly sensors are accumulating data in a constant
+cropped/001c_line_02.png,manner which can create large data sets that can be difficult
+cropped/001c_line_03.png,to send due to several reasons such as limited
+cropped/001c_line_04.png,computational power and bandwidth limitations A solution
+cropped/001c_line_05.png,to this includes using compression algorithms to store
+cropped/001c_line_06.png,important characteristics of data while reducing storage
+cropped/001c_line_07.png,space However this method can be demanding when
+cropped/001c_line_08.png,dealing with a drone that has limited amount of
+cropped/001c_line_09.png,computation power and limited energy supply from
+cropped/001c_line_10.png,a battery
+cropped/001c_line_12.png,Dispatching data from a drone to a centralized
+cropped/001c_line_13.png,system for storage and processing can cause
+cropped/001c_line_14.png,latency and increase traffic if multiple
+cropped/001c_line_15.png,sensors sending data Edge computing can prevent
+cropped/001c_line_16.png,these issues by allowing computation to
+cropped/001c_line_17.png,be closer to the network edge and data
+cropped/001c_line_18.png,sources The use of an edge node to
+cropped/001c_line_19.png,transfer data and run computational
+cropped/001c_line_20.png,algorithms allows for collision avoidance
+cropped/001c_line_21.png,of multiple drones allowing them to be
+cropped/001c_line_22.png,in operation at the same time and return results
+cropped/001c_line_23.png,in real time
+cropped/001c_line_25.png,Focusing on the unmanned aerial vehicle the
+cropped/001c_line_26.png,collision avoidance problem itself can be formulated
+cropped/001c_line_27.png,in two ways as a path planning problem or as a
+cropped/001c_line_28.png,collision avoidance maneuvering problem In the first
+cropped/001c_line_29.png,case the problem is to plan a feasible path between
+cropped/001c_line_30.png,two points while avoiding obstacles while the
+cropped/001c_line_31.png,latter addresses the issue of performing avoidance
+cropped/001c_line_32.png,maneuvers as obstacles are detected
+cropped/002c_line_01.png,Due to an increase in mobile connected devices such
+cropped/002c_line_02.png,as smartphones mobile sensors and automobiles the demand
+cropped/002c_line_03.png,for a faster and more dependable network is increasing
+cropped/002c_line_04.png,Several iterations of mobile networks have been introduced
+cropped/002c_line_05.png,starting with first generation mobile networks since then
+cropped/002c_line_06.png,many improvements have been made
+cropped/002c_line_08.png,In semantic oriented communication the primary emphasis lies
+cropped/002c_line_09.png,on the semantic content of the source data rather than the absolute
+cropped/002c_line_10.png,accuracy of transmitted bits This approach involves the
+cropped/002c_line_11.png,use of a semantic representation module tasked with capturing
+cropped/002c_line_12.png,the semantic content from the source data while filtering
+cropped/002c_line_13.png,out any superfluous or redundant information before the
+cropped/002c_line_14.png,standard data encoding process for transmission Upon
+cropped/002c_line_15.png,reception semantic inference and semantic decoding are
+cropped/002c_line_16.png,employed to decode the transmitted data typically
+cropped/002c_line_17.png,with the assistance of potent AI driven tools
+cropped/002c_line_18.png,such as Neural Networks This process results in data
+cropped/002c_line_19.png,compression and reduction thereby enhancing transmission
+cropped/002c_line_20.png,accuracy and efficiency
+cropped/002c_line_22.png,To build an efficient system a model must
+cropped/002c_line_23.png,be trained to be able to extract information
+cropped/002c_line_24.png,from an image and store it in a smaller
+cropped/002c_line_25.png,file This part of the system is classified
+cropped/002c_line_26.png,as the encoder for the system to work
+cropped/002c_line_27.png,a decoder must be paired with it
+cropped/002c_line_28.png,The decoder will be able to make sense
+cropped/002c_line_29.png,of the features that have been encoded
+cropped/002c_line_30.png,and sent By using this method we
+cropped/002c_line_31.png,can reaffirm that the features will not be
+cropped/002c_line_32.png,misinterpreted and differ from the class
