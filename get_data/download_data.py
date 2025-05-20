@@ -5,7 +5,7 @@ import os
 
 repo_id = "Manoli201/EPFHWD"  # <-- change this
 repo_type = "dataset"
-local_data_dir = os.path.join(os.path.dirname(__file__), "..", "data/images")
+local_data_dir = os.path.join(os.path.dirname(__file__), "..", "data/")
 
 all_files = list_repo_files(repo_id="Manoli201/EPFHWD", repo_type="dataset")
 image_files = [f for f in all_files if f.startswith("images/")]
